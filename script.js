@@ -57,5 +57,3 @@ document.querySelectorAll(".paper").forEach((paper) => {
   const p = new Paper();
   p.init(paper);
 });
-
-
