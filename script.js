@@ -57,3 +57,8 @@ document.querySelectorAll(".paper").forEach((paper) => {
   const p = new Paper();
   p.init(paper);
 });
+// Disable text selection via JavaScript
+document.addEventListener('selectstart', (e) => {
+  e.preventDefault();
+});
+
