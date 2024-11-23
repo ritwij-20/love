@@ -1,3 +1,6 @@
+{
+  user-select: none; /* Prevent text selection globally */
+}
 body {
   height: 100vh;
   margin: 0;
